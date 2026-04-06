@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mojkripto.eth • Tvoj Web3 Identitet</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%); }
+    .card { background: rgba(255,255,255,0.05); backdrop-filter: blur(12px); }
+  </style>
+</head>
+<body class="text-white min-h-screen font-sans">
+  <div class="max-w-4xl mx-auto pt-12 px-6">
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-12">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-2xl flex items-center justify-center text-3xl">🌐</div>
+        <h1 class="text-4xl font-bold tracking-tight">mojkripto.eth</h1>
+      </div>
+      <a href="https://x.com/mo jkripto" target="_blank" class="flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 rounded-2xl transition">
+        <i class="fab fa-x-twitter"></i> @mojkripto
+      </a>
+    </div>
+
+    <h2 class="text-5xl font-bold text-center mb-4">Dobrodošli na moj decentralizirani sajt!</h2>
+    <p class="text-xl text-center text-cyan-300 mb-12">Ovo nije obična web stranica. Ovo je na blockchainu – zauvijek i bez servera.</p>
+
+    <!-- Content -->
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="card p-8 rounded-3xl border border-white/10">
+        <h3 class="text-2xl mb-6 flex items-center gap-3"><i class="fas fa-wallet"></i> Moj Wallet</h3>
+        <p class="font-mono break-all text-cyan-400">0x1234...abcd (možeš promijeniti u kodu)</p>
+        <p class="text-sm text-gray-400 mt-2">Slanje novca → samo napiši mojkripto.eth</p>
+      </div>
+
+      <div class="card p-8 rounded-3xl border border-white/10">
+        <h3 class="text-2xl mb-6 flex items-center gap-3"><i class="fas fa-chart-line"></i> Najnovije iz kripta</h3>
+        <ul class="space-y-4 text-lg">
+          <li class="flex justify-between"><span>ETH cijena:</span> <span class="text-emerald-400">$2.850</span></li>
+          <li class="flex justify-between"><span>ENS adoption:</span> <span class="text-emerald-400">1.68 milijuna imena</span></li>
+          <li class="flex justify-between"><span>Moja poruka:</span> <span class="text-purple-400">Decentralizacija > sve</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center mt-16">
+      <p class="text-sm text-gray-400">Ova stranica je hostana na <span class="font-bold text-cyan-400">IPFS + ENS</span></p>
+      <p class="text-xs mt-2 text-gray-500">CID: [ovdje će biti tvoj CID nakon upload-a]</p>
+    </div>
+
+    <div class="text-center mt-20 text-xs text-gray-500">
+      Napravio za YouTube kanal @mojkripto • 2026.
+    </div>
+  </div>
+</body>
+</html>
